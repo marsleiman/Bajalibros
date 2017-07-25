@@ -1,0 +1,41 @@
+$font-stack: roboto;
+$color: red;
+
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.flow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo{
+  width: 200px;
+}
+
+nav{
+background-color: #1e1934;
+}
+
+ul, li {
+  display: none;
+}
+
+.fb__1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.fb__1_3 {
+  flex-shrink: 2;
+  flex-grow: 1;
+  display: flex;
+}
+
+.fb__3_5 {
+  flex-grow: 1;
+}
