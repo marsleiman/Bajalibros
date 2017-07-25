@@ -12,16 +12,14 @@ $color: red;
   align-items: center;
 }
 
-.img-logo{
-  width: 200px;
-}
 
 nav{
 background-color: #1e1934;
-}
-
-ul, li {
-  display: none;
+  ul, li{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 .fb__1 {
@@ -38,4 +36,18 @@ ul, li {
 
 .fb__3_5 {
   flex-grow: 1;
+}
+
+.icon{
+  font-size: 28px;
+  color: #fff;
+}
+
+
+.secondary-nav-wrapper{
+  background-color: #ee8823;
+}
+
+.box{
+  width: 100px;
 }
