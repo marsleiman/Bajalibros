@@ -14,19 +14,6 @@ nav {
     text-decoration: none;
     color: #fff; }
 
-.fb__1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; }
-
-.fb__1_3 {
-  flex-shrink: 2;
-  flex-grow: 1;
-  display: flex; }
-
-.fb__3_5 {
-  flex-grow: 1; }
-
 .icon {
   font-size: 28px;
   color: #fff; }
@@ -34,7 +21,22 @@ nav {
 .secondary-nav-wrapper {
   background-color: #ee8823; }
 
-.box {
-  width: 100px; }
+.search {
+  width: 500px;
+  height: 40px;
+  margin-left: 50px;
+  padding: 2px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  position: absolute; }
+
+.relative {
+  width: 50px;
+  height: 40px;
+  position: relative;
+  left: 530px; }
 
 /*# sourceMappingURL=styles.css.map */
