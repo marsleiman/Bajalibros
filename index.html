@@ -2,44 +2,54 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styles.css">
-  <title></title>
+  <title>BajaLibros.com</title>
 </head>
 <body>
   <header>
     <nav>
       <div class="container pure-g flow">
             <div class="pure-u-1-5">
-              <img src="img/logo-brand.png" alt="" style="width: 150px">
+              <img src="img/logo-brand.png" alt="" style="width: 200px">
             </div>
 
           <div class="pure-u-3-5">
             <form class="pure-form">
               <input type="text" class="search">
-              <button type="submit" class="pure-button relative">Search</button>
+              <button type="submit" class="pure-button relative"><i class="ion-search icon-search"></i></button>
             </form>
           </div>
 
             <div class="pure-u-1-5 flow">
                 <ul>
-                  <li><p>ingresar</p></li>
-                  <li>Mi Cuenta</li>
+                  <li><p class="min">ingresar</p></li>
+                  <li><p class="min-min">Mi Cuenta</p></li>
                 </ul>
                 <i class="ion-ios-cart icon"></i>
             </div>
       </div>
     </nav>
-    <div class="secondary-nav-wrapper">
-      hola
+    <div class="secondary-nav bar">
+      <div class="container">
+        <ul>
+          <li>GÉNEROS</li>
+          <li>REVISTAS</li>
+          <li>AUTORES INDEPENDIENTES</li>
+          <li>NOVEDADES</li>
+          <li>NUESTROS RECOMENDADOS</li>
+          <li>MÁS VENDIDOS</li>
+        </ul>
+      </div>
     </div>
   </header>
 
-
-
-
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/dropdown.js"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 $font-stack: roboto;
-$color: red;
+$colorViolet: #1e1934;
+$colorOrange: #ee8823;
 
 .container{
   max-width: 1024px;
@@ -12,14 +13,22 @@ $color: red;
   align-items: center;
 }
 
-
 nav{
-background-color: #1e1934;
-  ul, li{
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
+  background-color: $colorViolet;
+  height: 75px;
+    ul, li{
+      list-style: none;
+      text-decoration: none;
+      color: #fff;
   }
+}
+
+.min{
+  font-size: 12px;
+}
+
+.min-min{
+  font-size: 16px;
 }
 
 .icon{
@@ -27,28 +36,42 @@ background-color: #1e1934;
   color: #fff;
 }
 
-
-.secondary-nav-wrapper{
-  background-color: #ee8823;
+.secondary-nav{
+  background-color: $colorOrange;
+  height: 30px;
+    ul, li{
+      display: flex;
+      align-items: center;
+      padding-left: 0px;
+      padding-right: 15px;
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      font-size: 12px;
+    }
 }
-
 
 .search{
     width: 500px;
-    height: 40px;
+    height: 35px;
     margin-left: 50px;
     padding: 2px 10px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 14px;
     background-color: white;
     position: absolute;
 }
 
 .relative{
   width: 50px;
-  height: 40px;
+  height: 35px;
   position: relative;
   left: 530px;
+}
+
+.icon-search{
+  font-size: 20px;
+  color: #666;
 }
