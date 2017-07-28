@@ -17,6 +17,7 @@ nav{
   background-color: $colorViolet;
   height: 75px;
     ul, li{
+      margin-top: 0px;
       list-style: none;
       text-decoration: none;
       color: #fff;
@@ -24,7 +25,9 @@ nav{
 }
 
 .min{
+  margin-top: 15px;
   font-size: 12px;
+  margin-bottom: -5px;
 }
 
 .min-min{
@@ -65,7 +68,7 @@ nav{
 }
 
 .relative{
-  width: 50px;
+  width: 30px;
   height: 35px;
   position: relative;
   left: 530px;
@@ -82,4 +85,8 @@ nav{
 
 .pure-menu-link {
   color : white;
+}
+
+.margin-top{
+  margin-top: 10px;
 }
