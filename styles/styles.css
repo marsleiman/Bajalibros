@@ -42,7 +42,7 @@ nav {
     font-size: 12px; }
 
 .search {
-  width: 500px;
+  width: 550px;
   height: 35px;
   margin-left: 50px;
   padding: 2px 10px;
@@ -54,13 +54,12 @@ nav {
   position: absolute; }
 
 .relative {
-  width: 30px;
+  width: 35px;
   height: 35px;
   position: relative;
-  left: 530px; }
+  left: 580px; }
 
-.icon-search {
-  font-size: 20px;
+.iconcolor {
   color: #666; }
 
 .second-menu {
@@ -71,5 +70,9 @@ nav {
 
 .margin-top {
   margin-top: 10px; }
+
+h2 + p {
+  margin-top: -10px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
